@@ -29,8 +29,8 @@ git remote -v
 ```
 Jika tampil seperti ini:
 ```
-origin	git@github.com:moelihsan/myrepo.git (fetch)
-origin	git@github.com:moelihsan/myrepo.git (push)
+origin	git@github.com:myusername/myrepo.git (fetch)
+origin	git@github.com:myusername/myrepo.git (push)
 ```
 Ubah ke HTTPS:
 ```bash
@@ -38,7 +38,7 @@ git remote set-url origin https://github.com/<USERNAME>/<REPO>.git
 ```
 Contoh:
 ```bash
-git remote set-url origin https://github.com/moelihsan/myrepo.git
+git remote set-url origin https://github.com/myusername/myrepo.git
 ```
 
 ---
@@ -70,7 +70,7 @@ git push -u origin main
 ```
 Akan muncul prompt username dan password:
 
-- **Username:** GitHub username kamu (misal: `moelihsan`)
+- **Username:** GitHub username kamu (misal: `myusername`)
 - **Password:** paste Fine-grained PAT kamu
 
 > ✅ macOS akan menyimpan token di Keychain, jadi push berikutnya otomatis tanpa login ulang.
